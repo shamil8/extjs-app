@@ -1,5 +1,10 @@
 Ext.application({
-    name: 'MyApp',
+    name: 'App',
+
+    controllers: ['User'],
+
+    appFolder: 'app',
+
     launch: function () {
         Ext.create('Ext.container.Viewport', {
             layout: 'fit',
